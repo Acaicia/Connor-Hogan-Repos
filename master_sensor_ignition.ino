@@ -4,7 +4,8 @@
 //- Detect remote initiation & ensure all fail-safes indicate a go status
 //- Pressurize and inject an ignition fluid, then ignite the engine following a final commit check
 //- Collect chamber pressure & temperature, exhaust temperature, thrust, and system status data
-//- Convert the collected serial data to an excel databaseint loopCount = 0;
+//- Convert the collected serial data to an excel database
+int loopCount = 0;
 int activated = activated;
 unsigned long timer;
 unsigned long millisUnmod;
