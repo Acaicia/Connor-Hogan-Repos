@@ -1,4 +1,10 @@
-int loopCount = 0;
+//For use on Aerogeddon, a rocket capable of self-guidance and vertical touchdown under its own propulsion. This code's purpose is to
+
+//- Automatically set up sensors and detect failures, then advise the go-no-go decision
+//- Detect remote initiation & ensure all fail-safes indicate a go status
+//- Pressurize and inject an ignition fluid, then ignite the engine following a final commit check
+//- Collect chamber pressure & temperature, exhaust temperature, thrust, and system status data
+//- Convert the collected serial data to an excel databaseint loopCount = 0;
 int activated = activated;
 unsigned long timer;
 unsigned long millisUnmod;
