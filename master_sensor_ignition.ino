@@ -5,6 +5,8 @@
 //- Pressurize and inject an ignition fluid, then ignite the engine following a final commit check
 //- Collect chamber pressure & temperature, exhaust temperature, thrust, and system status data
 //- Convert the collected serial data to an excel database
+//**NOTE - This is a simple sample of my work programming C++ for real-time embedded systems. For ITAR reasons, the full algorithm controlling the thrust vector mount/control 
+//         ...surfaces is not included nor uploaded anywhere online.
 int loopCount = 0;
 int activated = activated;
 unsigned long timer;
